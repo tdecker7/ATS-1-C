@@ -1,0 +1,12 @@
+  519  ls
+  520  touch install.sh
+  521  mkdir app
+  522  cd app
+  523  mkdir bin
+  524  mv ../install.sh bin
+  525  cp bin/install.sh bin/install.sh.backup
+  526  rm bin/*
+  527  rm -rf bin
+  528  ls
+  529  cd ..
+  530  rm -rf app
